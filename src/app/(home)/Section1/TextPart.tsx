@@ -23,9 +23,9 @@ export default function TextPart() {
         <Desc>
           <GreenDesc>Easy, Simple, Catch</GreenDesc>
           <GrayDesc>
-            The best solution for making your own creatives!
+            The best solution for making your own web-site!
             <br />
-            Making catchy ads is easy and simple.
+            Making catchy web-site is easy and simple.
           </GrayDesc>
         </Desc>
 

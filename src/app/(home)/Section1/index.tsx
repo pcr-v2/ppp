@@ -17,7 +17,7 @@ export default function Section1(props: IProps) {
 
         <ImgBox>
           <img
-            src="/images/home/center2.gif"
+            src="/images/home-s1/center2.gif"
             alt="main-center"
             style={{ width: "100%", height: "100%" }}
           />
@@ -39,7 +39,7 @@ const Wrapper = styled(Box)(() => {
     position: "relative",
     flexDirection: "column",
 
-    background: `url("/images/home/home-bg.png") no-repeat`,
+    background: `url("/images/home-s1/home-bg.png") no-repeat`,
     backgroundPosition: "center",
     backgroundSize: "cover",
   };
