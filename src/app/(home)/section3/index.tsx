@@ -107,8 +107,8 @@ export default function Section3() {
               <CardText>
                 <CardTitle>{data.title}</CardTitle>
                 <CardDesc>
-                  {data.desc.map((desc) => {
-                    return <span>{desc}</span>;
+                  {data.desc.map((desc, index) => {
+                    return <span key={index}>{desc}</span>;
                   })}
                 </CardDesc>
               </CardText>
@@ -176,6 +176,7 @@ const Card = styled(motion.div)(() => {
     width: "314px",
     height: "368px",
     display: "flex",
+    cursor: "pointer",
     borderRadius: "20px",
     flexDirection: "column",
     outline: "1px solid #e9e9e9",

@@ -1,14 +1,14 @@
 "use client";
 
 import { Box, styled } from "@mui/material";
-import { forwardRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { forwardRef, useEffect, useState } from "react";
 
+import Dot from "@/app/_components/Dot";
 import s2_1 from "@/public/images/home-s2/s2-1.png";
 import s2_2 from "@/public/images/home-s2/s2-2.png";
 import s2_3 from "@/public/images/home-s2/s2-3.png";
 import s2_4 from "@/public/images/home-s2/s2-4.png";
-import Dot from "@/app/_components/Dot";
 
 interface IProps {}
 
@@ -54,8 +54,8 @@ const Section2 = forwardRef<HTMLDivElement, IProps>((_, ref) => {
 
           {[s2_1, s2_2, s2_3, s2_4].map((image, index, arr) => (
             <MotionImg
+              key={image.src}
               alt="img"
-              key={index}
               index={index}
               custom={index}
               src={image.src}

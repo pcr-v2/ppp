@@ -1,9 +1,10 @@
 "use client";
 
-import Dot from "@/app/_components/Dot";
 import { Box, styled } from "@mui/material";
 import { motion } from "framer-motion";
 import { useState } from "react";
+
+import Dot from "@/app/_components/Dot";
 
 export default function TextPart() {
   const [btnHover, setBtnHover] = useState(false);
